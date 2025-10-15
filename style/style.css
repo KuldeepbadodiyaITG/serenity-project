@@ -81,6 +81,15 @@ h5 {
     line-height: var(--line-height);
 }
 
+.h3,
+h3 {
+    font-family: "Americana Font";
+    font-weight: var(--heading-font-weight);
+    font-size: var(--font-size-medium);
+    line-height: var(--line-height);
+
+}
+
 .grid {
     display: flex;
     flex-wrap: wrap;
@@ -88,9 +97,21 @@ h5 {
     column-gap: 20px;
 }
 
+
+
 .grid-col-4-dekstop .grid-items {
-    width: calc();
-    max-width: calc();
+    width: calc(25% - 20px);
+    max-width: calc(25% - 20px);
+}
+
+.grid-col-6-dekstop .grid-item {
+    width: calc(16.6% - 16px);
+    max-width: calc(16.6% - 16px);
+}
+
+.grid-col-3-dekstop .grid-items {
+    width: calc(33% - 20px);
+    max-width: calc(33% - 20px);
 }
 
 
@@ -98,13 +119,18 @@ h5 {
     --background-color: #26A3DB;
     --text-color: #FFFFFF;
     --secondary-background-color: #E9F6FB;
-    --button-color: #26A3DB;
     --text-color: #000309;
 }
 
 .color-scheme-2 {
-    --background-section-color: #E9F6FB;
-    --text-heading-color: #000309;
+    --background-color: #E9F6FB;
+    --secondary-background-color: #000309;
+}
+
+
+.grdient {
+    background-color: var(--background-color);
+    color: var(--secondary-background-color);
 }
 
 body {
@@ -125,13 +151,36 @@ body {
     font-size: var(--font-size-sub-heading);
     line-height: var(--line-height);
     color: var(--text-color);
+    cursor: pointer;
+}
+
+.secondary-button {
+    gap: 5px;
+    opacity: 1;
+    padding: 13px 36px;
+    border-radius: 5px;
+    background: var(--text-color);
+    border: none;
+
+}
+
+.underline-button {
+    border: none;
+    font-size: var(--font-size-sub-heading);
+    line-height: var(--line-height);
+    font-family: "Nunito Sans";
+    border-bottom: 2px solid black;
 }
 
 .page-width {
     max-width: 1600px;
     margin: auto;
     letter-spacing: var(--letter-spacing);
-    overflow-x: hidden;
+    padding: 0px 130px;
+}
+
+.cursor {
+    cursor: pointer;
 }
 
 .main-heading {
@@ -139,9 +188,8 @@ body {
     font-weight: var(--sub-heading-font-weight);
     font-size: (var(--font-size-small));
     line-height: var(--line-height);
-    padding: 10px 130px;
+    padding: 10px 0px;
     text-align: center;
-    background: var(--background-color);
     color: var(--text-color);
 }
 
@@ -158,6 +206,7 @@ body {
     gap: 10px;
     color: var(--text-color)
 }
+
 .banner-page-content {
     display: flex;
     flex-direction: column;
@@ -166,7 +215,6 @@ body {
     top: 258px;
     text-align: left;
     max-width: 383px;
-    transform: translateX(128px);
 }
 
 .banner-page-image {
@@ -242,12 +290,168 @@ a {
 }
 
 .icon-with-text-page {
-    padding: 20px 130px;
-    justify-content: space-between;
-
+    padding: 20px 0px;
 }
 
-.icon-with-text-wrapper {
-    background-color: var(--background-section-color);
-    color: var(--text-heading-color)
+.hem-bar {
+    width: 28px;
+    display: none;
+    color: var(--text-color);
+}
+
+.collection-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F9F9F9;
+}
+
+.collection-list-page {
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 55px;
+    padding-bottom: 45px;
+}
+
+.collection-list-page-heading {
+    text-align: center;
+}
+
+.product-discription {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-discription {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.discription {
+    font-family: "Nunito Sans";
+    font-weight: var(--sub-heading-font-weight);
+    font-size: var(--font-size-sub-heading);
+    line-height: var(--line-height-secondary);
+    max-width: 307px;
+    color: var(--text-color)
+}
+
+.site-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.site-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Nunito Sans";
+}
+
+.site-content-discription {
+    color: var(--text-color);
+}
+
+.icon-with-text-footer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.footer-page-content {
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+
+p.detail-description {
+    max-width: 218px;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.email-input {
+    padding: 13px 36px 13px 15px;
+    background: unset;
+    border-radius: 1px solid white;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: var(--text-color)
+}
+
+.disclaimer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.disclaimer-page-detail {
+    font-family: "Nunito Sans";
+    font-weight: var(--sub-heading-font-weight);
+    font-size: var(--font-size-small);
+    line-height: var(--line-height);
+    color: var(--text-color);
+}
+
+.footer-section {
+    border-bottom: 1px solid black;
+    width: 100%;
+    border-color: var(--text-color)
+}
+
+.disclaimer-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.payment-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.polices {
+    display: flex;
+    gap: 20px;
+}
+
+.featured-collection-page-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.featured-collection {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.featured-collection-page {
+    padding: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.featured-price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+span {
+    color: #8A9099;
 }
