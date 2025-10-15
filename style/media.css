@@ -1,0 +1,163 @@
+@media (max-width: 1261px) {
+    .navigation-bar {
+        display: none;
+    }
+
+    .hem-bar {
+        display: block;
+    }
+
+    .navigation-page-bar {
+        display: none;
+    }
+
+    .main-heading-content {
+        padding: 15px 30px;
+        grid-template-columns: 40% 15% 40%;
+
+    }
+
+    .grid-col-6-dekstop .grid-item {
+        width: calc(33% - 16px);
+        max-width: calc(33% - 16px);
+    }
+
+    .main-heading-content {
+        grid-template-columns: 40% 11% 44%;
+    }
+
+    .header-icons {
+        gap: 10px;
+    }
+
+    .swiper-slide img {
+        aspect-ratio: 10/8;
+    }
+
+    .grid {
+        row-gap: 30px;
+    }
+
+    /* .main-heading-content {
+        padding: 15px 25px;
+    } */
+
+    /* .icon-with-text-page {
+        padding: 20px 25px;
+    } */
+
+    h5 {
+        font-size: var(--font-size-sub-heading);
+    }
+
+    */ .grid {
+        justify-content: center;
+    }
+
+    /* .collection-list-page {
+        padding: 20px 20px;
+    } */
+
+    /* .footer-page-content {
+        padding: 40px 20px;
+    } */
+
+    /* .disclaimer-page {
+        padding: 40px 20px;
+    } */
+    .banner-page-content {
+
+        right: 212px;
+    }
+
+    .page-width {
+        padding: 0px 12px;
+    }
+
+    .grid {
+        row-gap: 30px;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 622px) {
+    .grid-col-2-mobile .grid-item {
+        width: calc(50% - 16px);
+        max-width: calc(50% - 16px);
+        align-items: center;
+    }
+
+    /* 
+    .icon-with-text-page {
+        padding: 20px 10px;
+    } */
+
+    .main-heading-content {
+        grid-template-columns: 28% 15% 49%;
+        top: 30px;
+    }
+
+    .hem-bar {
+        width: 22px;
+    }
+
+    /* .main-heading {
+        padding: 10px 10px;
+    } */
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .banner-page-content {
+        top: 140px;
+        transform: translateX(20px);
+    }
+
+    .banner-page-discription {
+        font-size: 12px;
+    }
+
+    .button {
+        padding: 7px 9px;
+    }
+
+    .primary-button {
+        font-size: 12px;
+    }
+
+    .main-heading {
+        font-size: 13px;
+    }
+
+    .disclaimer-page {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .payment-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .disclaimer {
+        align-items: center;
+    }
+
+    .grid {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-icons {
+        align-self: center;
+    }
+
+    .banner-page-content {
+        gap: 6px;
+    }
+}
