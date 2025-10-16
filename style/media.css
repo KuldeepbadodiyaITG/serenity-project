@@ -79,6 +79,39 @@
         justify-content: center;
     }
 
+    /* .banner-page-content {
+        right: 548px;
+    } */
+    .image-with-text.grid.grid-col-2-dekstop {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .images-with-text-images.grid-items {
+        align-self: baseline;
+    }
+
+    .banner-page-content.image-with-banner-section-content {
+        /* font-size: small; */
+        top: 20px;
+        left: 30px;
+    }
+
+    .h2,
+    h2 {
+        font-size: var(--font-size-sub-heading);
+    }
+
+    .grid-col-3-dekstop .grid-items {
+        width: calc(100% - 20px);
+        max-width: calc(100% - 20px);
+    }
+    .scrolling-page {
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+}
 }
 
 @media (max-width: 622px) {
