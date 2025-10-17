@@ -2,9 +2,8 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="./style/slider.css">
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/media.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Serenity</title>
@@ -392,61 +391,91 @@
                 </div>
 
                 <ul class="grid-col-4-dekstop grid">
-                    <li class="collection-list grid-item ">
-                        <div><a href="#">
-                                <img src="assets/topicals.png" alt="topicals">
-                            </a></div>
-                        <div class="product-discription cursor">
-                            <div class="product-name">
-                                <h3>Topicals</h3>
-                            </div>
-                            <div class="product-button"><a href="#">
-                                    <button class="underline-button">Shop Now</button>
-                                </a></div>
-                        </div>
-                    </li>
+                    <div class="swiper mySwiper2">
+                        <div class="swiper-wrapper">
+                            <li class="collection-list grid-item swiper-slide">
+                                <div><a href="#">
+                                        <img src="assets/topicals.png" alt="topicals" width="100%">
+                                    </a></div>
+                                <div class="product-discription cursor">
+                                    <div class="product-name">
+                                        <h3>Topicals</h3>
+                                    </div>
 
-                    <li class="collection-list grid-item">
-                        <div><a href="#">
-                                <img src="assets/tinctures.png" alt="tinctures">
-                            </a></div>
-                        <div class="product-discription cursor">
-                            <div class="product-name">
-                                <h3>Tincture</h3>
-                            </div>
-                            <div class="product-button"><a href="#">
-                                    <button class="underline-button">Shop Now</button>
-                                </a></div>
-                        </div>
-                    </li>
+                                    <div class="product-button"><a href="#">
+                                            <a href="#" class="underline-button">Shop Now</a>
+                                        </a></div>
+                                </div>
+                            </li>
+                            <li class="collection-list grid-item  swiper-slide">
+                                <div><a href="#">
+                                        <img src="assets/tinctures.png" alt="tinctures" width="100%">
+                                    </a></div>
+                                <div class="product-discription cursor">
+                                    <div class="product-name">
+                                        <h3>Tincture</h3>
+                                    </div>
+                                    <div class="product-button"><a href="#">
+                                            <a href="#" class="underline-button">Shop Now</a>
+                                        </a></div>
+                                </div>
+                            </li>
+                            <li class="collection-list grid-item  swiper-slide">
+                                <div><a href="#">
+                                        <img src="assets/gummies.png" alt="gummies " width="100%">
+                                    </a></div>
+                                <div class="product-discription cursor">
+                                    <div class="product-name">
+                                        <h3>Gummies</h3>
+                                    </div>
+                                    <div class="product-button"><a href="#">
+                                            <a href="#" class="underline-button">Shop Now</a>
+                                        </a></div>
+                                </div>
+                            </li>
 
-                    <li class="collection-list grid-item">
-                        <div><a href="#">
-                                <img src="assets/gummies.png" alt="gummies">
-                            </a></div>
-                        <div class="product-discription cursor">
-                            <div class="product-name">
-                                <h3>Gummies</h3>
-                            </div>
-                            <div class="product-button"><a href="#">
-                                    <button class="underline-button">Shop Now</button>
-                                </a></div>
+                            <li class="collection-list grid-item  swiper-slide">
+                                <div><a href="#">
+                                        <img src="assets/apperal.png" alt="apperal" width="100%">
+                                    </a></div>
+                                <div class="product-discription cursor">
+                                    <div class="product-name">
+                                        <h3>Apparel</h3>
+                                    </div>
+                                    <div class="product-button"><a href="#">
+                                            <a href="#" class="underline-button">Shop Now</a>
+                                        </a></div>
+                                </div>
+                            </li>
+                            <li class="collection-list grid-item swiper-slide">
+                                <div><a href="#">
+                                        <img src="assets/topicals.png" alt="topicals" width="100%">
+                                    </a></div>
+                                <div class="product-discription cursor">
+                                    <div class="product-name">
+                                        <h3>Topicals</h3>
+                                    </div>
+                                    <div class="product-button"><a href="#">
+                                            <a href="#" class="underline-button">Shop Now</a>
+                                        </a></div>
+                                </div>
+                            </li>
+                            <li class="collection-list grid-item swiper-slide">
+                                <div><a href="#">
+                                        <img src="assets/topicals.png" alt="topicals" width="100%">
+                                    </a></div>
+                                <div class="product-discription cursor">
+                                    <div class="product-name">
+                                        <h3>Topicals</h3>
+                                    </div>
+                                    <div class="product-button"><a href="#">
+                                            <a href="#" class="underline-button">Shop Now</a>
+                                        </a></div>
+                                </div>
+                            </li>
                         </div>
-                    </li>
-
-                    <li class="collection-list grid-item">
-                        <div><a href="#">
-                                <img src="assets/apperal.png" alt="apperal">
-                            </a></div>
-                        <div class="product-discription cursor">
-                            <div class="product-name">
-                                <h3>Apparel</h3>
-                            </div>
-                            <div class="product-button"><a href="#">
-                                    <button class="underline-button">Shop Now</button>
-                                </a></div>
-                        </div>
-                    </li>
+                        <!-- <div class="swiper-pagination"></div> -->
+                    </div>
                 </ul>
             </div>
         </div>
@@ -461,99 +490,180 @@
 
                 <div class="featured-collection-page-heading">
                     <div class="featured-collection-page-main-heading">
+                        <div class="swiper-button-next"></div>
                         <h2>New Arrivals</h2>
+                        <div class="swiper-button-prev"></div>
                     </div>
 
                     <div class="featured-collection-page-sub-heading">
-                        <button class="underline-button">View All</button>
+                        <a href="#" class="underline-button">View All</a>
                     </div>
                 </div>
 
 
                 <ul class="grid-col-4-dekstop grid">
-                    <li class="grid-item">
-                        <div class="featured-collection">
-                            <div class="featured-collection-images">
-                                <a href="#">
-                                    <img src="assets/topical-baalm.png" alt="topical-baalm">
-                                </a>
-                            </div>
+                    <div class="swiper mySwiper3">
+                        <div class="swiper-wrapper">
 
-                            <div class="featured-collection-discription">
-                                <h5>CBD Topical Balm</h5>
-                            </div>
+                            <li class="grid-item swiper-slide">
+                                <div class="featured-collection">
+                                    <div class="featured-collection-images">
+                                        <a href="#">
+                                            <img src="assets/topical-baalm.png" alt="topical-baalm" width="100%">
+                                        </a>
+                                    </div>
 
-                            <div class="featured-collection-price">
-                                <p class="featured-price cursor">$25.00 – $50.00<span>
-                                        or from $20.00 – $40.00 / month</span></p>
-                            </div>
+                                    <div class="featured-collection-discription">
+                                        <h5>CBD Topical Balm</h5>
+                                    </div>
+
+                                    <div class="featured-collection-price">
+                                        <p class="featured-price cursor">$25.00 – $50.00<span>
+                                                or from $20.00 – $40.00 / month</span></p>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="grid-item swiper-slide">
+                                <div class="featured-collection">
+                                    <div class="featured-collection-images">
+                                        <a href="#">
+                                            <img src="assets/classic-oil.png" alt="classic-oil" width="100%">
+                                        </a>
+                                    </div>
+
+                                    <div class="featured-collection-discription">
+                                        <h5>Classic Serenity CBD Body Oil</h5>
+                                    </div>
+
+                                    <div class="featured-collection-price">
+                                        <p class="featured-price cursor">$45.00<span>
+                                                or $45.00 $36.00. / month</span></p>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="grid-item swiper-slide">
+                                <div class="featured-collection">
+                                    <div class="featured-collection-images">
+                                        <a href="#">
+                                            <img src="assets/thc-free.png" alt="thc-free" width="100%">
+                                        </a>
+                                    </div>
+
+                                    <div class="featured-collection-discription">
+                                        <h5>THC Free 1500mg</h5>
+                                    </div>
+
+                                    <div class="featured-collection-price">
+                                        <p class="featured-price cursor">$60.00<span>
+                                                or $60.00 $48.00. / month</span></p>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="grid-item swiper-slide">
+                                <div class="featured-collection">
+                                    <div class="featured-collection-images">
+                                        <a href="#">
+                                            <img src="assets/cbd-gummies.png" alt="cbd-gummies" width="100%">
+                                        </a>
+                                    </div>
+
+                                    <div class="featured-collection-discription">
+                                        <h5>Serenity CBD Bedtime Gummies</h5>
+                                    </div>
+
+                                    <div class="featured-collection-price">
+                                        <p class="featured-price cursor">$25.00 – $55.00<span>
+                                                or from $20.00 – $44.00 / month</span></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="grid-item swiper-slide">
+                                <div class="featured-collection">
+                                    <div class="featured-collection-images">
+                                        <a href="#">
+                                            <img src="assets/classic-oil.png" alt="classic-oil" width="100%">
+                                        </a>
+                                    </div>
+
+                                    <div class="featured-collection-discription">
+                                        <h5>Classic Serenity CBD Body Oil</h5>
+                                    </div>
+
+                                    <div class="featured-collection-price">
+                                        <p class="featured-price cursor">$45.00<span>
+                                                or $45.00 $36.00. / month</span></p>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="grid-item swiper-slide">
+                                <div class="featured-collection">
+                                    <div class="featured-collection-images">
+                                        <a href="#">
+                                            <img src="assets/topical-baalm.png" alt="topical-baalm" width="100%">
+                                        </a>
+                                    </div>
+
+                                    <div class="featured-collection-discription">
+                                        <h5>CBD Topical Balm</h5>
+                                    </div>
+
+                                    <div class="featured-collection-price">
+                                        <p class="featured-price cursor">$25.00 – $50.00<span>
+                                                or from $20.00 – $40.00 / month</span></p>
+                                    </div>
+                                </div>
+                            </li>
+
+
+                            <li class="grid-item swiper-slide">
+                                <div class="featured-collection">
+                                    <div class="featured-collection-images">
+                                        <a href="#">
+                                            <img src="assets/thc-free.png" alt="thc-free" width="100%">
+                                        </a>
+                                    </div>
+
+                                    <div class="featured-collection-discription">
+                                        <h5>THC Free 1500mg</h5>
+                                    </div>
+
+                                    <div class="featured-collection-price">
+                                        <p class="featured-price cursor">$60.00<span>
+                                                or $60.00 $48.00. / month</span></p>
+                                    </div>
+                                </div>
+                            </li>
+
+
+                            <li class="grid-item swiper-slide">
+                                <div class="featured-collection">
+                                    <div class="featured-collection-images">
+                                        <a href="#">
+                                            <img src="assets/topical-baalm.png" alt="topical-baalm" width="100%">
+                                        </a>
+                                    </div>
+
+                                    <div class="featured-collection-discription">
+                                        <h5>CBD Topical Balm</h5>
+                                    </div>
+
+                                    <div class="featured-collection-price">
+                                        <p class="featured-price cursor">$25.00 – $50.00<span>
+                                                or from $20.00 – $40.00 / month</span></p>
+                                    </div>
+                                </div>
+                            </li>
+
                         </div>
-                    </li>
+
+                        <!-- Arrow Navigation buttons -->
 
 
-
-                    <li class="grid-item">
-                        <div class="featured-collection">
-                            <div class="featured-collection-images">
-                                <a href="#">
-                                    <img src="assets/classic-oil.png" alt="classic-oil">
-                                </a>
-                            </div>
-
-                            <div class="featured-collection-discription">
-                                <h5>Classic Serenity CBD Body Oil</h5>
-                            </div>
-
-                            <div class="featured-collection-price">
-                                <p class="featured-price cursor">$45.00<span>
-                                        or $45.00 $36.00. / month</span></p>
-                            </div>
-                        </div>
-                    </li>
-
-
-
-
-                    <li class="grid-item">
-                        <div class="featured-collection">
-                            <div class="featured-collection-images">
-                                <a href="#">
-                                    <img src="assets/thc-free.png" alt="thc-free">
-                                </a>
-                            </div>
-
-                            <div class="featured-collection-discription">
-                                <h5>THC Free 1500mg</h5>
-                            </div>
-
-                            <div class="featured-collection-price">
-                                <p class="featured-price cursor">$60.00<span>
-                                        or $60.00 $48.00. / month</span></p>
-                            </div>
-                        </div>
-                    </li>
-
-
-
-
-                    <li class="grid-item">
-                        <div class="featured-collection">
-                            <div class="featured-collection-images">
-                                <a href="#">
-                                    <img src="assets/cbd-gummies.png" alt="cbd-gummies">
-                                </a>
-                            </div>
-
-                            <div class="featured-collection-discription">
-                                <h5>Serenity CBD Bedtime Gummies</h5>
-                            </div>
-
-                            <div class="featured-collection-price">
-                                <p class="featured-price cursor">$25.00 – $55.00<span>
-                                        or from $20.00 – $44.00 / month</span></p>
-                            </div>
-                        </div>
-                    </li>
+                    </div>
                 </ul>
 
             </div>
@@ -604,7 +714,7 @@
                                     </svg>
 
                                     <div class="iamge-with-text-main">
-                                        <p>Feel Better, or it’s Free!  100% Money-Back Guarantee</p>
+                                        <p>Feel Better, or it’s Free! 100% Money-Back Guarantee</p>
                                     </div>
                                 </div>
 
@@ -620,7 +730,7 @@
                                     </svg>
 
                                     <div class="iamge-with-text-main">
-                                        <p>Feel Better, or it’s Free!  100% Money-Back Guarantee</p>
+                                        <p>Feel Better, or it’s Free! 100% Money-Back Guarantee</p>
                                     </div>
                                 </div>
 
@@ -637,7 +747,7 @@
                                     </svg>
 
                                     <div class="iamge-with-text-main">
-                                        <p>Feel Better, or it’s Free!  100% Money-Back Guarantee</p>
+                                        <p>Feel Better, or it’s Free! 100% Money-Back Guarantee</p>
                                     </div>
                                 </div>
 
@@ -720,7 +830,6 @@
         </div>
 
     </section>
-
 
 
     <!-- /////section 8 ////// -->
@@ -845,7 +954,7 @@
 
                     <div class="banner-page-discription">
                         <p>Aware of the need to remedy the aches of body, mind, and soul in unison, we carefully
-                            handcraft each of our topicals with Love being the primary ingredient. In order to give Love
+                            handcraft each of our topicals with Love being the primary ingredient. In order to give Love
                             a little help..</p>
                     </div>
 
@@ -1098,7 +1207,7 @@
                         <p>
                             At Serenity CBD in Sacramento, CA, we are dedicated to providing our customers with the
                             highest quality CBD-rich hemp extract products and exceptional customer service, which
-                            include CBD Topicals, CBD Oil Tinctures, and CBD Balms. If you have any questions or
+                            include CBD Topicals, CBD Oil Tinctures, and CBD Balms. If you have any questions or
                             concerns, please don’t hesitate to reach out to us.</p>
                     </div>
 
@@ -1399,7 +1508,7 @@
                 <div class="disclaimer-page">
                     <div class="disclaimer">
                         <div class="disclaimer-page-button">
-                            <button class="email-input cursor">United States (USD $)</button>
+                            <button class="email-input cursor">United States (USD $)</button>
                         </div>
 
                         <div class="disclaimer-page-detail cursor">
@@ -1719,7 +1828,7 @@
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script/slider.js"></script>
     <script src="script/script.js"></script>
 </body>
 
