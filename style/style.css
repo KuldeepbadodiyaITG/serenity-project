@@ -728,7 +728,7 @@
      border-radius: 5px;
      width: fit-content;
      align-self: center;
-     border: outset;
+     border: revert;
  }
 
  .age-verification-field #submit:hover {

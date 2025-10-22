@@ -116,11 +116,9 @@ document.addEventListener('DOMContentLoaded', (e) => {
 
       setTimeout(() => {
         welcome.style.display = "none"
-      }, 3000);
+      }, 2000);
     }
   });
 });
-
-
 
 
