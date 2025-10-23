@@ -186,7 +186,9 @@
      background: var(--text-color);
      border: none;
      cursor: pointer;
-
+     color :#000309;
+     text-align: center;
+     width: 56%;
  }
 
  .underline-button {

@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
   e.preventDefault();
   const ageVerification = document.getElementById('age-verification');
   const input = document.getElementById('age-field');
-  const submit = document.getElementById('submit');
+  const submit = document.querySelector('.age-form');
   const hasVerified = localStorage.getItem('ageVerified');
   const error = document.getElementById("error")
   const welcome = document.getElementById('welcome');
@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
     ageVerification.style.display = 'flex';
   }
 
-  submit.addEventListener('click', () => {
+  submit.addEventListener('submit', () => {
     if (input.value < 18 || input.value > 100) {
       notEligible.style.display = 'flex';
       ageVerification.style.display = 'none';

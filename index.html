@@ -127,9 +127,9 @@
             <h2 class="heading">Age Verification</h2>
             <p class="heading-medium">To continue, please provide your age</p>
             <div class="age-verification-field">
-                <form action="#">
-                    <input id="age-field" type="number">
-                    <input type="submit" name="submit-button" id="submit">
+                <form action="#" class="age-form">
+                    <input id="age-field" type="number" required>
+                    <input class="cursor" type="submit" name="submit-button" id="submit">
                 </form>
             </div>
         </div>
@@ -1552,8 +1552,7 @@
                                     <input class="email-input cursor" type="email" placeholder="Your Email ">
                                 </a>
 
-                                <a href="#">
-                                    <button class="secondary-button">Subscribe</button>
+                                <a href="#" class="secondary-button">Subscribe
                                 </a>
                             </div>
                         </div>
@@ -1568,7 +1567,9 @@
                 <div class="disclaimer-page">
                     <div class="disclaimer">
                         <div class="disclaimer-page-button">
-                            <button class="email-input cursor">United States (USD $)</button>
+                            <select class="email-input cursor">
+                                <option>United States (USD $)</option>
+                            </select>
                         </div>
 
                         <div class="disclaimer-page-detail cursor">
